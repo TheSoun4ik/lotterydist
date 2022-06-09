@@ -1,0 +1,164 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1276px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__inner {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav__logo {
+    width: 160px;
+    margin-right: 2.4rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav__logo img {
+    width: 16rem;
+}
+
+.nav__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav__list_item {
+    padding: 0 1.6rem;
+    font-size: 1.6rem;
+    color: rgb(184, 173, 210);
+    font-weight: 400;
+}
+
+.nav__list_item a {
+    text-decoration: none;
+    color: inherit;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav__list_item svg {
+    fill: rgb(184, 173, 210);
+}
+
+.header {
+    background: rgb(39, 38, 44);
+}
+
+.header__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1.4rem 1.6rem;
+}
+
+.header__right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__prof {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+
+.header__prof svg {
+    margin-right: 0.8rem;
+}
+
+.header__prof-wallet {
+    font-size: 1.6rem;
+    color: rgb(184, 173, 210);
+    font-weight: 600;
+}
+
+.header__language {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0.8rem;
+}
+
+.header__language-logo {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.header__language-logo svg {
+    fill: rgb(184, 173, 210);
+}
+
+.header__language-list {
+    display: none;
+}
+
+.header__settings {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    padding: 0 0.8rem;
+}
+
+.header__settings svg {
+    fill: rgb(184, 173, 210);
+}
+
+.header__button {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 1.6rem;
+    text-decoration: none;
+    background: rgb(31, 199, 212);
+    border-radius: 1.6rem;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    letter-spacing: 0.03em;
+}
